@@ -1,9 +1,10 @@
+package demo2;
+
 /*
  * Runs a thread passing the Runnable in the constructor of the thread.
  * https://www.udemy.com/course/java-multithreading/learn/lecture/107238#overview
  */
 
-package demo2;
 class Runner implements Runnable {
 
     @Override
@@ -19,8 +20,8 @@ class Runner implements Runnable {
         }
     }
 }
-public class StartingThreadsConstructor {
 
+public class StartingThreadsConstructor {
     public static void main(String[] args) {
         Thread t1 = new Thread(new Runner());
         Thread t2 = new Thread(new Runner());

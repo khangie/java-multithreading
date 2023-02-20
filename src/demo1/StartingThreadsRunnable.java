@@ -19,6 +19,7 @@ class Runner extends Thread {
         }
     }
 }
+
 public class StartingThreadsRunnable {
     public static void main(String[] args) {
         Runner runner1 = new Runner();
@@ -27,5 +28,4 @@ public class StartingThreadsRunnable {
         Runner runner2 = new Runner();
         runner2.start();
     }
-
 }

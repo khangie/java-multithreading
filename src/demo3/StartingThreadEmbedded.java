@@ -4,6 +4,7 @@ package demo3;
  * Runs a thread with Runnable embedded in the Thread object
  * https://www.udemy.com/course/java-multithreading/learn/lecture/107238#overview
  */
+
 public class StartingThreadEmbedded {
 
     public static void main(String[] args) {
@@ -21,10 +22,8 @@ public class StartingThreadEmbedded {
                     }
                 }
             }
-
         });
 
         t1.start();
     }
-
 }
