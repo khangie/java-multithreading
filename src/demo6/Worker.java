@@ -4,6 +4,11 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
 
+/*
+ * Implements synchronization via code blocks to optimize execution time.
+ * https://www.udemy.com/course/java-multithreading/learn/lecture/108987#overview
+ */
+
 public class Worker {
 
     private Random random = new Random();
