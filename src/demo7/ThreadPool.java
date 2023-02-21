@@ -31,7 +31,9 @@ class Processor implements Runnable {
         System.out.println("Completed: " + id);
     }
 }
+
 public class ThreadPool {
+
     public static void main(String[] args) {
 
         // Define new thread pool of 2 threads
